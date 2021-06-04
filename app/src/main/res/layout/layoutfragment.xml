@@ -1,0 +1,88 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:id="@+id/edit_name"
+    android:layout_width="250dp"
+    android:layout_height="350dp"
+    android:layout_gravity="center"
+    android:orientation="vertical"
+    android:background="#202855"
+    android:padding="30dp">
+
+    <TextView
+        android:id="@+id/Titre"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ajouter une planete"
+        android:fontFamily="@font/krona_one"
+        android:layout_gravity="center_horizontal"
+        android:textColor="#FFFFFF"
+        android:textSize="14dp" />
+
+
+    <TextView
+        android:id="@+id/labelId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/audiowide"
+        android:layout_marginTop="10dp"
+        android:textSize="10dp"
+        android:textColor="@color/white"
+        android:text="id de la planète" />
+
+    <EditText
+        android:id="@+id/editeTextId"
+        android:layout_width="200dp"
+        android:fontFamily="@font/audiowide"
+        android:layout_height="40dp"
+        android:textColor="@color/white"
+        android:imeOptions="actionDone"
+        android:inputType="phone" />
+
+
+    <TextView
+        android:id="@+id/lbl_your_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="10dp"
+        android:textColor="@color/white"
+        android:fontFamily="@font/audiowide"
+        android:text="Nom de la planète" />
+
+    <EditText
+        android:id="@+id/editTextNom"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/audiowide"
+        android:textColor="@color/white"
+        android:imeOptions="actionDone"
+        android:inputType="text" />
+
+
+
+    <TextView
+        android:id="@+id/taille"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/audiowide"
+        android:textSize="10dp"
+        android:textColor="@color/white"
+        android:text="Taille de la planete" />
+
+    <EditText
+        android:id="@+id/editTextTaille"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:imeOptions="actionDone"
+        android:textColor="@color/white"
+        android:fontFamily="@font/audiowide"
+        android:inputType="phone" />
+
+    <Button
+        android:id="@+id/Valider"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/audiowide"
+
+        android:text="Ajouter" />
+
+</LinearLayout>
